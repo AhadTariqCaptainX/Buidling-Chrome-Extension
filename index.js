@@ -12,7 +12,7 @@ inputBtn.addEventListener("click", function(){
 function renderLeads(){
     let listItems = " "
     for(let i=0; i<myLeads.length; i++){
-        listItems += "<li>" + myLeads[i] + "</li>" 
+        listItems += "<li><a target = '_blank' href='"+ inputEl.value+ "'>"  + myLeads[i] + "</a></li>" 
         // create element, set text content, append to ul
         // const li = document.createElement("li")
         // li.textContent = myLeads[i]
